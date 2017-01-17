@@ -2,6 +2,11 @@ body {
     background-image: url(../images/creampaper.jpg);
 }
 
+footer {
+    background-image: url(../images/backgrounds/img7.jpg);
+    background-size: cover;
+}
+
 .menu {
     background: rgba(0,0,0,0.5);
     border-radius: 5px;
@@ -27,7 +32,7 @@ body {
 
 .footer {
     padding-top: 40px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px;*/
     margin-top: 40px;
     border-top: 1px solid #eee;
 }
@@ -95,4 +100,21 @@ a, a:focus, a:hover {
 
 .mozaiki {
     margin-top: 10px;
+}
+
+.copyright {
+    padding-top: 10px;
+    color: white;
+    background: #19191b;
+    height: 50px;
+    a: color:red;
+}
+
+.copyright a {
+    color: red;
+}
+
+
+#logoCarousel {
+    padding-bottom: 40px;
 }
