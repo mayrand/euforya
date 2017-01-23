@@ -110,11 +110,19 @@ a, a:focus, a:hover {
     a: color:red;
 }
 
-.copyright a {
-    color: red;
-}
+    .copyright a {
+        color: red;
+    }
 
 
 #logoCarousel {
     padding-bottom: 40px;
 }
+
+.dropdown-menu {
+    background-color: red;
+}
+
+    .dropdown-menu > li > a {
+        color: white;
+    }
